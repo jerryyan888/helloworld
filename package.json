@@ -1,11 +1,11 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloWorld",
+  "name": "jerryyanhelloworld",
+  "displayName": "HelloWorld of jerryyan",
   "description": "",
   "version": "0.0.1",
   "publisher": "jerryyan",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.69.0"
   },
   "categories": [
     "Other"
@@ -29,7 +29,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.80.0",
+    "@types/vscode": "^1.69.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "20.2.5",
@@ -41,6 +41,9 @@
     "typescript": "^5.1.3",
     "@vscode/test-electron": "^2.3.2"
   },
+  "extensionPack": [
+    "vscjava.vscode-maven"
+  ],
   "extensionDependencies": [
     "redhat.java"
   ]
